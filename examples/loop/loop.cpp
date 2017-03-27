@@ -26,7 +26,7 @@
  * This example explores how can you do looping in Tweeny. It shows how to use lambdas, functors
  * and normal functions as callbacks */
 
-#include "tweeny.h"
+#include <tweeny/tweeny.h>
 #include <cstdio>
 
 using tweeny::easing;
@@ -86,4 +86,3 @@ bool loop<Ts...>::operator()(tweeny::tween<Ts...> & t, Ts...) {
     }
     return true;
 }
-

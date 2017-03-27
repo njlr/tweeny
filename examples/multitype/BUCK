@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'multitype',
+  srcs = [
+    'multitype.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:tweeny',
+  ],
+)

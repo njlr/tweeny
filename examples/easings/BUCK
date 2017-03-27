@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'easings',
+  srcs = [
+    'easings.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:tweeny',
+  ],
+)

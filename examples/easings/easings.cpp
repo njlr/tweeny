@@ -27,7 +27,7 @@
  * to hit the return key to present the next.
  */
 
-#include "tweeny.h"
+#include <tweeny/tweeny.h>
 #include <cstdio>
 
 using tweeny::easing;
